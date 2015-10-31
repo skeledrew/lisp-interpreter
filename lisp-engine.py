@@ -38,4 +38,68 @@
 # Imports
 
 
+### Classes:
+
+class Testing:
+    """Docstring template.
+    
+    Created:
+    15-10-31
+    Last Modified:
+    n/a
+    
+    Params:
+    n/a
+    Return:
+    n/a
+    
+    Notes:
+    n/a
+    History:
+    n/a
+    """
+    
+    def test_cases():
+        pass
+    
+    def test1(case, result):
+        if case == result:
+            print "Test passed!"
+            
+        else:
+            print "Test failed..."
+            print "Test:", case, "Expected:", result
+
+    def test2(self):
+        engine = LispEngine()
+        print engine.evalExpr("hello!")
+        
+class LispEngine:
+    """Docstring template.
+    
+    Created:
+    15-10-31
+    Last Modified:
+    n/a
+    
+    Params:
+    n/a
+    Return:
+    n/a
+    
+    Notes:
+    n/a
+    History:
+    n/a
+    """
+    
+    
+    def evalExpr(self, expr):
+        return "Hi again Lisp!"
+        
 ### Functions
+
+### Testing
+
+myTests = Testing()
+myTests.test2()
