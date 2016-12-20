@@ -8,4 +8,4 @@ This is a personal project from 2006 in which I created this interpreter as a wa
 
 This project is as of now (14-06-11) being reimplemented in a new language.
 
-16-12-20: Project was abandonned after the discovery of Hy (hylang.org).
+16-12-20: Project was abandonned after the discovery of [Hy](http://hylang.org).
